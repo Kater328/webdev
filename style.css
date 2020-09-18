@@ -1,0 +1,335 @@
+body {
+    width: 1600px;
+    height: 4182px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+b {
+    font-weight: 500;
+    color: #373737;
+}
+.white {
+    color: #ffffff;
+}
+.light-grey {
+    color: #4E4E4E;
+}
+.dark-grey {
+    color: #373737;
+}
+h1 {
+    position: absolute;
+    left: 435px;
+    top: 231px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+h5 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    top: 232px;
+}
+h6 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.email {
+    width: 332px;
+    height: 42px;
+}
+.btn-verification {
+    width: 66px;
+    height: 48px;
+    background: #00AFDB;
+    border: none;
+}
+.btn-verification:hover {
+    background-color: green;
+}
+.btn-main {
+    width: 184px;
+    height: 46px;
+    background-color: #00AFDB;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-main:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+.btn-store {
+    background-image: url(assets/btn-back.svg);
+    width: 188px;
+    height: 50px;
+    border: none;
+    
+}
+.btn-store h5 {
+    position: relative;
+    top: 14px;
+    left: -26px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-store object {
+    position: relative;
+    left: 65px;
+    top: -6px;
+    margin: 0 0 0 0;
+}
+.btn-store:hover{
+    background-image: none;
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+
+
+
+.your-life {
+    position: relative;
+    width: 1600px;
+    height: 744px;
+    background-image: url(assets/bg-image.png);
+    text-align: center;
+}
+header {
+    height: 95px;
+}
+nav {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 38px 42px 36px 35px;
+    display: inline;
+}
+nav ul li:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.logo {
+    margin: 25px 73px 0 60px;
+}
+.your-life .btn-main {
+    position: relative;
+    top: 261px;
+}
+.socials {
+    position: relative;
+    top: 445px;
+}
+.socials object {
+    margin: 0 13px;
+}
+.socials object:hover {
+    background-color: #009CC2;
+}
+.rappresent {
+    height: 842px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.rappresent .content {
+    position: relative;
+    left: 268px;
+    top: 295px;
+}
+.rappresent .content h6 {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.rappresent img {
+    position: relative;
+    top: 120px;
+    left: 520px;
+    width: 407px;
+    height: 582px;
+}
+.our-community {
+    height: 504px;
+    background-color: #F5F6F7;
+}
+.nav-tools {
+    display: flex;
+    position: relative;
+    top: 77px;
+    margin: 0 269px 0 1252px;
+    align-items: center;
+    text-align: center;
+}
+.nav-tools object:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+#slash {
+    margin: 0;
+}
+.community {
+    display: flex;
+}
+.community .content {
+    text-align: center;
+    position: relative;
+    top: 131px;
+    left: 272px;
+}
+.community .content h4 {
+    margin: 18px 0 10px 0;
+}
+.images-slider {
+    width: 894px;
+    display: flex;
+    position: relative;
+    left: 414px;
+    top: 95px;
+    overflow: hidden;
+}
+.images-slider img {
+    margin-right: 30px; 
+    object-fit: none;
+}
+.implement {
+    height: 842px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.implement img {
+    width: 407px;
+    height: 582px;
+    position: relative;
+    left: 269px;
+    top: 120px;
+}
+.implement .content {
+    position: relative;
+    top: 320px;
+    left: 408px;
+}
+.implement .content h6 {
+    margin: 20px 0 30px 0;
+}
+.subscribe {
+    height: 598px;
+    background-image: url(assets/bg-image2.png);
+    text-align: center;
+}
+.subscribe h2 {
+    position: relative;
+    top: 217px;
+}
+.subscribe .form {
+    position: relative;
+    top: 247px;
+    display: flex;
+    margin: 0 597px;
+}
+.download {
+    height: 468px;
+    background-color: #F5F6F7;
+    text-align: center;
+}
+.download h2 {
+    position: relative;
+    top: 120px;
+}
+.download h6 {
+    position: relative;
+    top: 140px;
+}
+.download .btn-store {
+    position: relative;
+    top: 170px;
+    left: -14px;
+    margin-left: 26px;
+}
+footer {
+    height: 184px;
+    background-color: #000000;
+    display: flex;
+}
+footer .additional-menu {
+    position: relative;
+    top: 73px;
+    left: 150px;
+    display: flex;
+    width: 280px;
+    height: 20px;
+}
+footer .additional-menu h6:hover {
+    cursor: pointer;
+    background-color: #00AFDB;
+}
+#vertical-line {
+    margin-top: 2px;
+    font-size: 8px;
+    cursor: auto;
+    background-color: #000000;
+}
+footer .additional-menu h6 {
+    padding: 0 10px;
+}
+footer object {
+    position: relative;
+    top: 37px;
+    left: 438px;
+}
+footer .copyright {
+    height: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #818181;
+    position: relative;
+    top: 74px;
+    left: 813px;
+}
+
+
+
