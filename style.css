@@ -20,7 +20,7 @@ b {
 .dark-grey {
     color: #373737;
 }
-h1 {
+h1 .heading {
     position: absolute;
     left: 435px;
     top: 231px;
@@ -56,8 +56,6 @@ h5 {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    position: relative;
-    top: 232px;
 }
 h6 {
     font-weight: normal;
@@ -147,7 +145,7 @@ nav ul {
     justify-content: center;
 }
 nav ul li {
-    margin: 38px 42px 36px 35px;
+    margin: 37px 42px 36px 35px;
     display: inline;
 }
 nav ul li:hover {
@@ -157,13 +155,23 @@ nav ul li:hover {
 .logo {
     margin: 25px 73px 0 60px;
 }
+.hidden {
+    color: #000000;
+    opacity: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+.your-life h5 {
+    position: relative;
+    top: 215px;
+}
 .your-life .btn-main {
     position: relative;
-    top: 261px;
+    top: 245px;
 }
 .socials {
     position: relative;
-    top: 445px;
+    top: 428px;
 }
 .socials object {
     margin: 0 13px;
